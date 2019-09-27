@@ -1,0 +1,635 @@
+body{
+	color: #fff;
+	font-family: Tahoma;
+}
+
+
+header{
+	font-size: 14px;
+	text-align: center;
+	background: #f8f8f8;
+	font-family: none;
+	padding-bottom: 20px;
+}
+
+#logo{
+	display: inline-block;
+	border-radius: 40px;
+	padding-top: 20px;
+	margin-bottom: -20px;
+
+}
+
+.hlavny_nadpis{
+	color: #002857;
+	padding-top: 10px;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 16px;
+	padding-left: 0.694444%; /* 10 / 1440 */
+ }
+
+.header_div{
+	display: block;
+
+}
+
+nav{
+	padding-left: 13.194%; /* 190 / 1440 */
+	padding-right: 13.194%;	/* 190 / 1440 */
+	display: block;
+	text-align: center;
+}
+
+nav li{
+	display: inline-block;
+	margin-left: 0.694444%; /* 10 / 1440 */
+	font-size: 22px;
+	padding-top: -10px;
+	color: #387142;
+}
+
+ ul a{
+	text-decoration: none;
+	color: #387142;
+	font-size: 18px;
+	text-align: center;
+}
+
+ul a:hover{
+	color: rgb(0, 144, 85);
+
+}
+
+#header-ul{
+	display: block;
+}
+
+ header li:after{
+	content: '⎜';
+	margin-left: 10px;
+}
+li:last-child:after{
+	content: '';
+}
+
+.article_1{
+	background-image: url('img/jazierko copy.jpg');
+	background-repeat: no-repeat;
+	margin-top: -15px;
+	padding-bottom: 450px;
+}
+
+#uvod_box{
+		width: 30%;
+		text-align: center;
+		background-color: rgba(255, 255, 255, 0.751961);
+		position: absolute;
+		padding: 20px;
+		margin: 120px;
+		margin-left: 34.0277%;/* 490 / 1440 */
+		margin-right: 34.0277%;
+		color: green;
+}
+
+@media screen and (max-width: 1140px){
+	#uvod_box{
+		width: 40%;
+	}
+
+	#uvod_popis{
+
+	}
+
+}
+
+.link{
+	text-decoration: none;
+	color: rgb(94, 94, 94);
+}
+
+#tel_to {
+	font-size: 22px;
+}
+
+article a:hover{
+	color: green;
+}
+
+#uvod_nadpis{
+	color: green;
+	font-family: "Lobster Two", cursive, serif;
+	font-size: 36px;
+}
+
+#uvod_popis{
+	font-family: Cabin, Georgia, serif;
+	color: rgb(27, 27, 27);
+	font-size: 22px;
+	padding-left: 1.7%;  /* 68 / 432 */
+	text-align: center;
+}
+
+.article_2{
+	color: black;
+	box-sizing: border-box;
+
+}
+
+.welcome{
+	line-height: 0;
+  	text-align: center;
+  	color: rgb(0, 137, 82);
+  	font-family: "Lobster Two", cursive, serif;
+	font-size: 33px;
+	font-style: italic;
+	padding-top: 50px;
+}
+
+.welcome span{
+	display: inline-block;
+  	position: relative;
+}
+
+.welcome span:before,
+.welcome span:after{
+	content: "";
+  	position: absolute;
+ 	height: 5px;
+ 	border-bottom: 1px solid rgb(0, 137, 82);
+	top: 0;
+ 	width: 600px;
+
+}
+
+.welcome span:before{
+	right: 100%;
+  	margin-right: 1.38888%;  /* 20 / 1440 */
+  	max-width: 500px;
+}
+
+.welcome span:after{
+	left: 100%;
+ 	margin-left: 10.38888%;  /* 20 / 1440 */
+ 	max-width: 500px;
+}
+
+@media screen and (max-width: 1150px) {
+	.welcome span:before{
+	right: 100%;
+  	margin-right: 1.38888%;  /* 20 / 1440 */
+  	max-width: 400px;
+  	color: black;
+}
+
+.welcome span:after{
+	left: 100%;
+ 	margin-left: 10.38888%;  /* 20 / 1440 */
+ 	max-width: 400px;
+	}
+}
+
+@media screen and (max-width: 931px) {
+	.welcome span:before{
+	right: 100%;
+  	margin-right: 1.38888%;  /* 20 / 1440 */
+  	max-width: 300px;
+  	color: black;
+}
+
+.welcome span:after{
+	left: 100%;
+ 	margin-left: 1.38888%;  /* 20 / 1440 */
+ 	max-width: 300px;
+	}
+}
+
+.uvod_list{
+	display: block;
+	font-family: Cabin, Georgia, serif
+}
+
+.uvod_list li{
+	display: block;
+	font-size: 22px;
+	color: #387142;
+	width: 33%;
+	text-align: center;
+	float: left;
+
+
+}
+
+.uvod_list h2{
+	font-weight: normal;
+
+}
+
+.uvod_list p{
+
+	line-height: 1.5;
+	font-size: 20px;
+	max-width: 80%;
+	padding-left: 10%;
+	font-family: Cabin, Georgia, serif
+}
+.uvod_list img{
+	margin-top: 30px;
+	border-radius: 50%;
+	max-width: 55%;
+}
+
+#uvod_2{
+	padding-top: 0px;
+}
+
+.group:before,
+.group:after{
+	content: "";
+	display: table
+}
+
+.group:after{
+	clear: both;
+}
+
+@media screen and (max-width: 950px){
+	.uvod_list p{
+	line-height: 1.5;
+	font-size: 18px;
+	max-width: 80%;
+	padding-left: 10%;
+	font-family: Cabin, Georgia, serif
+	}
+
+	.uvod_list h2{
+	font-weight: normal;
+	font-size: 26px;
+	}
+
+}
+
+@media screen and (max-width: 650px){
+	.uvod_list li{
+	font-size: 22px;
+	color: #387142;
+	width: 100%;
+	text-align: center;
+	}
+
+	.uvod_list p{
+
+	line-height: 1.5;
+	font-size: 20px;
+	max-width: 80%;
+	padding-left: 10%;
+	font-family: Cabin, Georgia, serif
+}
+
+
+}
+
+
+.article_3{
+	background: url('img/podporujeme4.jpg');
+	background-repeat: no-repeat;
+	margin-top: 600px;
+	padding-bottom: 30px;
+	text-align: center;
+	opacity: 0.8
+}
+
+.article_3 h2{
+	padding-top: 100px;
+	font-size: 42px;
+	color: alpha(1)
+}
+
+.article_3 p{
+	font-size: 32px;
+	margin-top: -20px;
+}
+
+@media screen and (max-width: 650px){
+	.article_3{
+
+	margin-top: 1730px;
+	}
+}
+
+@media screen and (max-width: 640px){
+	.article_3{
+
+	margin-top: 1720px;
+	}
+}
+
+@media screen and (max-width: 505px){
+	.article_3{
+
+	margin-top: 1630px;
+	}
+}
+
+@media screen and (max-width: 680px) {
+	.article_3 h2{
+	padding-top: 30px;
+	font-size: 36px;
+	color: alpha(1)
+}
+
+.article_3 p{
+	font-size: 26px;
+	margin-top: -20px;
+	margin-bottom: -10px;
+}
+}
+
+.welcome2{
+	line-height: 0;
+  	text-align: center;
+  	color: rgb(0, 137, 82);
+  	font-family: "Lobster Two", cursive, serif;
+	font-size: 33px;
+	font-style: italic;
+	padding-top: 50px;
+}
+
+.welcome2 span{
+	display: inline-block;
+  	position: relative;
+}
+
+.welcome2 span:before,
+.welcome2 span:after{
+	content: "";
+  	position: absolute;
+ 	height: 5px;
+ 	border-bottom: 1px solid rgb(0, 137, 82);
+	top: 0;
+ 	width: 600px;
+
+}
+
+.welcome2 span:before{
+	right: 100%;
+  	margin-right: 20px;
+  	max-width: 408px;
+}
+
+.welcome2 span:after{
+	left: 100%;
+ 	margin-left: 20px;
+ 	max-width: 398px;
+}
+
+
+.starostlivost{
+	display: block;
+	font-family: Cabin, Georgia, serif;
+	padding-top: 30px;
+	padding-left: 60px;
+}
+
+.starostlivost li{
+	display: block;
+	font-size: 22px;
+	color: #fff;
+	text-align: center;
+	float: left;
+	padding-bottom: 120px;
+	padding-top: 20px;
+
+
+}
+
+.starostlivost li:first-child{
+	margin-left: 7.63888%; /* 110 / 1440 */
+}
+
+.starostlivost h3{
+	font-weight: normal;
+	padding-left: 11.25%; /* 45 / 1440 */
+	max-width: 70%;
+	font-family: Cabin, Georgia, serif;
+	display: block;
+	font-size: 31px;
+}
+
+.starostlivost p{
+
+	line-height: 1.5;
+	max-width: 70%;
+	font-family: Cabin, Georgia, serif;
+	padding-left: 11.25%; /* 45 / 1440 */
+	display: block;
+	font-size: 22px;
+	height: 162px;
+	line-height: 27px;
+}
+
+#dreviny{
+	background: url('img/slivky2.jpg');
+	max-width: 29%;
+	background-repeat: no-repeat;
+	padding-bottom: 52px;
+}
+
+#travniky{
+	background: url('img/kosenie2.jpg');
+	max-width: 31%;
+	background-repeat: no-repeat;
+}
+
+#vodne_plochy{
+	background: url('img/lekno2.jpg');
+	max-width: 27%;
+	background-repeat: no-repeat;
+	margin-left: -4.2%; /* 44 / 1440 */
+	padding-bottom: 87px;
+	padding-left: 20px;
+}
+
+#travniky{
+	margin-left: -3.2%;
+}
+
+@media screen and (max-width: 1210px) {
+	.starostlivost h3{
+	font-weight: normal;
+	padding-left: 11.25%; /* 45 / 1440 */
+	max-width: 70%;
+	font-family: Cabin, Georgia, serif;
+	display: block;
+	font-size: 29px;
+	}
+
+	#travniky{
+		padding-bottom: 52px;
+	}
+}
+
+.starostlivost p{
+
+	line-height: 1.5;
+	max-width: 70%;
+	font-family: Cabin, Georgia, serif;
+	padding-left: 11.25%; /* 45 / 1440 */
+	display: block;
+	font-size: 20px;
+	height: 182px;
+	line-height: 25px;
+}
+
+@media screen and (max-width: 1000px){
+
+	.starostlivost li{
+		font-size: 22px;
+		color: #fff;
+		text-align: center;
+		padding-bottom: 120px;
+		padding-top: 20px;
+		width: 100%;
+		display: block;
+		float: none;
+	}
+	#dreviny{
+	background: url('img/slivky_medium.jpg');
+	background-repeat: no-repeat;
+	text-align: center;
+	max-width: 100%;
+	padding-right: 45.83333%; /* 660 / 1440	*/
+	margin-left: 8.9444%; /* 100 / 1440	*/
+	}
+
+	.starostlivost p {
+		padding-left: 0;
+	}
+}
+
+
+
+@media screen and (max-width: 1150px) {
+	.welcome2 span:before{
+	right: 100%;
+  	margin-right: 1.38888%;  /* 20 / 1440 */
+  	max-width: 300px;
+  	color: black;
+}
+
+.welcome2 span:after{
+	left: 100%;
+ 	margin-left: 10.38888%;  /* 20 / 1440 */
+ 	max-width: 300px;
+	}
+}
+
+@media screen and (max-width: 931px) {
+	.welcome2 span:before{
+	right: 100%;
+  	margin-right: 1.38888%;  /* 20 / 1440 */
+  	max-width: 200px;
+  	color: black;
+}
+
+	.welcome2 span:after{
+	left: 100%;
+ 	margin-left: 1.38888%;  /* 20 / 1440 */
+ 	max-width: 200px;
+	}
+}
+
+.pre_footer{
+	background-color: rgb(246, 246, 246);
+	display: block;
+	margin-top: 480px;
+	padding-bottom: 100px;
+	padding-top: 30px;
+	padding-left: 140px;
+}
+
+.pre_footer p{
+	color: rgb(87, 87, 87);
+	font-family: Cabin, Georgia, serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	height: 24px;
+	line-height: 24px;
+}
+
+.pre_footer h4{
+	color: rgb(21, 21, 21);
+	font-family: Cabin, Georgia, serif;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: normal;
+	height: 27px;
+	line-height: 27px;
+
+
+}
+
+.welcome3{
+	line-height: 0;
+  	text-align: left;
+  	color: rgb(0, 137, 82);
+  	font-family: "Lobster Two", cursive, serif;
+	font-size: 33px;
+	font-style: italic;
+	padding-top: 50px;
+	padding-bottom: 30px;
+
+}
+
+.welcome3 span{
+	display: inline-block;
+  	position: relative;
+
+}
+
+.welcome3 span:before,
+.welcome3 span:after{
+	content: "";
+  	position: absolute;
+ 	height: 5px;
+ 	border-bottom: 1px solid rgb(0, 137, 82);
+	top: 0;
+ 	width: 600px;
+
+}
+
+.welcome3 span:before{
+	right: 100%;
+  	margin-right: 20px;
+  	max-width: 00px;
+}
+
+.welcome3 span:after{
+	left: 100%;
+ 	margin-left: 20px;
+ 	max-width: 400px;
+}
+
+#img_footer{
+	float: right;
+	padding-top: 40px;
+	padding-right: 40px;
+}
+
+footer{
+	color: #7a7a7a;
+	text-align: center;
+}
+
+footer a{
+	color: #7a7a7a;
+	text-decoration: none;
+}
+
+footer a:hover,
+footer a:focus{
+	color: #7a7a7a;
+	text-decoration: underline;
+}
+
